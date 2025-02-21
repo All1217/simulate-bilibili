@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>radio_selected</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="收藏播单弹窗复制" transform="translate(-597.000000, -755.000000)">
+            <g id="Group-20" transform="translate(90.000000, 86.000000)">
+                <g id="PopUp-Copy复制" transform="translate(470.000000, 509.000000)">
+                    <g id="分组" transform="translate(36.000000, 97.000000)">
+                        <g id="Group-1" transform="translate(1.000000, 0.000000)">
+                            <g id="radio_selected" transform="translate(0.000000, 63.000000)">
+                                <circle id="Oval" stroke="#00A1D6" cx="8" cy="8" r="7.5"></circle>
+                                <circle id="Oval" fill="#00A1D6" cx="8" cy="8" r="4"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
