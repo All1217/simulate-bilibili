@@ -2,15 +2,17 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "strict": true,
     "jsx": "preserve",
     "moduleResolution": "node",
+    // "noEmit": true,
+    // "allowImportingTsExtensions": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "useDefineForClassFields": true,
     "sourceMap": true,
+    "strict": false,
     "baseUrl": ".",
     "types": [
       "webpack-env"

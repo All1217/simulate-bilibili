@@ -1,0 +1,159 @@
+//li悬停变灰
+.hover-li {
+    background-color: var(--bgc1);
+}
+
+//li普通白
+.normal-li {
+    background-color: var(--white);
+}
+
+//li激活蓝
+.ac-li {
+    background-color: var(--cur-blue);
+}
+
+//a普通黑
+.normal-a {
+    color: var(--font-color-black);
+}
+
+//a悬停蓝
+.hover-a {
+    color: var(--hover-blue);
+}
+
+//激活白
+.ac-a {
+    color: var(--white);
+}
+
+.col-full {
+    .contribution-sidenav {
+        width: 210px;
+        margin-right: -1px;
+        font-size: 14px;
+        color: #222;
+        border-right: 1px solid var(--bgc7);
+        box-sizing: border-box;
+
+        .contribution-list-container {
+            max-height: 420px;
+            margin: 10px 0 20px;
+            overflow: hidden;
+
+            .contribution-item {
+                padding-left: 30px;
+                white-space: nowrap;
+                font-size: 0;
+                overflow: hidden;
+                transition: background-color 0.3s ease;
+
+                a {
+                    display: inline-block;
+                    width: 130px;
+                    line-height: 44px;
+                    margin-right: 5px;
+                    font-size: 14px;
+                    vertical-align: middle;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+
+                .num {
+                    display: inline-block;
+                    width: 32px;
+                    font-size: 12px;
+                    color: var(--font-color-gray1);
+                    vertical-align: middle;
+                    text-align: center;
+                    font-family: Arial;
+                }
+            }
+        }
+    }
+
+    .main-content {
+        width: 1071px;
+        padding: 20px;
+        box-sizing: border-box;
+        border-left: 1px solid var(--bgc7);
+
+        .submit-page-head {
+            .submit-page-head-left {
+                .video-title {
+                    font-size: 20px;
+                    line-height: 26px;
+                    height: 26px;
+                    color: #222;
+                }
+
+                .be-tab {
+                    display: inline-block;
+                    line-height: 18px;
+                    vertical-align: middle;
+                    margin-left: 15px;
+
+                    ul li {
+                        cursor: pointer;
+                        display: inline;
+                        margin-right: 15px;
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            .submit-page-head-right {
+                .list {
+                    margin-right: 10px;
+                }
+
+                i {
+                    cursor: pointer;
+                    font-size: 18px;
+                    transition: color 0.3s ease;
+                    margin-top: 2px;
+                }
+
+                i:hover {
+                    color: var(--hover-blue);
+                }
+            }
+        }
+
+        .waterfall-content {
+            padding: 20px;
+        }
+
+        .submit-video-type-filter {
+            background: #edf2f9;
+            border-radius: 4px;
+            line-height: 36px;
+            margin: 18px 0 10px;
+            padding: 0 20px;
+            flex-wrap: wrap;
+
+            a {
+                margin-right: 30px;
+                cursor: pointer;
+
+                .count {
+                    color: var(--bgc2);
+                    margin-left: 8px;
+                }
+            }
+
+            a:hover {
+                color: var(--hover-blue);
+            }
+        }
+
+        .submit-video {
+            display: grid;
+            padding-top: 15px;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            gap: 20px;
+        }
+    }
+}

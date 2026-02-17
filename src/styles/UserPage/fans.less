@@ -1,0 +1,243 @@
+.fav-sidenav {
+    width: 210px;
+    margin-right: -1px;
+    font-size: 14px;
+    color: var(--font-color-black2);
+    border-right: 1px solid #eee;
+    box-sizing: border-box;
+
+    .nav-container {
+        border-bottom: 1px solid #eee;
+        font-size: 14px;
+        color: var(--font-color-black2);
+
+        .nav-title {
+            height: 44px;
+            padding: 20px 0px 0px 20px;
+
+            .text {
+                display: block;
+                line-height: 24px;
+                color: rgb(153, 162, 170);
+                width: 103px;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+
+            .icon-add {
+                position: absolute;
+                bottom: -4px;
+                right: 8px;
+                cursor: pointer;
+                width: 30px;
+                height: 30px;
+                background-position: -81px -1170px;
+            }
+        }
+
+        .follow-list-container {
+            max-height: 440px;
+            margin: 10px 0px 20px;
+
+            .follow-list {
+                .follow-item {
+                    padding-left: 20px;
+                    transition: background-color 0.3s;
+                    font-size: 0px;
+
+                    .i-icon {
+                        width: 20px;
+                        height: 18px;
+                        margin-right: 6px;
+                    }
+
+                    .icon-follow-all {
+                        background-position: -150px -856px;
+                    }
+
+                    .icon-follow-special {
+                        background-position: -150px -791px;
+                    }
+
+                    .icon-follow-silent {
+                        background-position: -278px -983px;
+                    }
+
+                    .icon-follow-default {
+                        background-position: -22px -1112px;
+                    }
+
+                    .icon-follow-fans {
+                        background-position: -21px -984px;
+                    }
+
+                    .text {
+                        display: inline-block;
+                        line-height: 44px;
+                        width: 103px;
+                        margin-right: 10px;
+                        font-size: 14px;
+                        vertical-align: middle;
+                        cursor: pointer;
+                    }
+
+                    .num {
+                        display: inline-block;
+                        width: 50px;
+                        font-size: 12px;
+                        vertical-align: middle;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.fav-main {
+    width: 1070px;
+    min-height: 600px;
+    border-left: 1px solid var(--bgc7);
+
+    .follow-header {
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(229, 233, 239);
+        margin: 20px 20px 0px;
+        min-height: 30px;
+
+        .breadcrumb {
+            line-height: 30px;
+
+            .item {
+                color: var(--font-color-black2);
+                display: inline-block;
+                font-size: 18px;
+                vertical-align: middle;
+            }
+
+            .icon-multiple {
+                width: 20px;
+                height: 20px;
+                display: inline-block;
+                background-image: url(../../assets/images/icon-multiple.png);
+                background-size: cover;
+            }
+        }
+    }
+
+    .follow-content {
+        .no-data {
+            width: 100%;
+            padding: 15px 0;
+        }
+
+        .content {
+            padding-bottom: 10px;
+
+            .relation-list {
+                padding: 0px 20px 20px;
+
+                .list-item {
+                    position: relative;
+                    border-bottom: 1px solid #eee;
+                    display: block;
+                    padding: 20px 0;
+                    line-height: 1;
+
+                    .cover-container {
+                        display: block;
+                        position: absolute;
+                        width: 60px;
+                        height: 60px;
+                        background-color: var(--bgc7);
+                        border-radius: 50%;
+                        overflow: hidden;
+                        cursor: pointer;
+                    }
+
+                    .content {
+                        padding: 0px 200px 0px 0px;
+                        margin-left: 88px;
+                        margin-top: 10px;
+
+                        .title {
+                            font-size: 16px;
+                            line-height: 19px;
+                            height: 20px;
+                            margin-bottom: 10px;
+                            display: inline-block;
+                            max-width: 680px;
+
+                            .fans-name {
+                                color: var(--pink);
+                            }
+                        }
+
+                        .auth-description {
+                            line-height: 14px;
+                            font-size: 12px;
+                            color: rgb(109, 117, 122);
+                        }
+
+                        .fans-action {
+                            position: absolute;
+                            right: 0px;
+                            top: 9px;
+
+                            .fans-action-btn {
+                                border: 1px solid rgb(204, 208, 215);
+                                border-radius: 4px;
+                                width: 74px;
+                                line-height: 22px;
+                                margin-left: 15px;
+                                color: var(--font-color-gray1);
+                                text-align: center;
+                                vertical-align: middle;
+                                cursor: pointer;
+                            }
+
+                            .fans-action-btn:hover {
+                                border: 1px solid var(--hover-blue);
+                                color: var(--hover-blue);
+                            }
+
+                            .be-dropdown-trigger {
+                                width: 24px;
+                                height: 24px;
+                                margin: auto;
+                                text-align: center;
+
+                                i {
+                                    display: block;
+                                    line-height: 24px;
+                                    font-size: 18px;
+                                    color: var(--font-color-gray1);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.fans-action-follow {
+    background-color: rgb(229, 233, 239);
+    border-radius: 4px;
+    padding: 4px 11px 4px 9px;
+    line-height: 16px;
+    margin-left: 15px;
+
+    i {
+        margin-right: 2px;
+        font-size: 14px;
+    }
+
+    .fans-action-text {
+        color: rgb(109, 117, 122);
+        line-height: 16px;
+        font-size: 12px;
+        vertical-align: middle;
+    }
+}
